@@ -34,3 +34,10 @@ console.log({ map })
 const filter = products.filter((product) => product.quantity > 2)
 
 console.log({ filter })
+
+// .reduce()
+const reduce = products.reduce((accumulator, product) => {
+  return accumulator + (product.price * product.quantity)
+}, 0)
+
+console.log({ reduce })
