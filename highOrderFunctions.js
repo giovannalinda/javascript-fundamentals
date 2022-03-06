@@ -20,3 +20,12 @@ console.log({ some })
 // .every(everyone follows this rule)
 const every = products.every((product) => product.price > 1000)
 console.log({ every })
+
+// .map(create an array based on the previous one with some modification)
+const map = products.map((product) => {
+  return {
+    ...product,
+    total: product.quantity * product.price,
+  }
+})
+console.log({ map })
