@@ -2,7 +2,7 @@
 
 ### Hi there! 👋
 
-💻 This repository was made in order to record JavaScript concepts, feel free to research and clear up your possible doubts 
+💻 This repository was made in order to record JavaScript concepts to research and clear up possible doubts 
 
 ## Getting Started
 
