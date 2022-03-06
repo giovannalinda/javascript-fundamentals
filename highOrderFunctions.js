@@ -35,7 +35,7 @@ const filter = products.filter((product) => product.quantity > 2)
 
 console.log({ filter })
 
-// .reduce()
+// .reduce(iterates over an array and uses the value of each item to create a final object based on some rule)
 const reduce = products.reduce((accumulator, product) => {
   return accumulator + (product.price * product.quantity)
 }, 0)
