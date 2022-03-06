@@ -1,6 +1,6 @@
 const products = [
   { name: 'IPhone', price: 3800, quantity: 2 },
-  { name: 'MacBook Air', price: 7800, quantity: 3 },
+  { name: 'MacBook Air', price: 7700, quantity: 3 },
   { name: 'AirPods', price: 950, quantity: 4 },
 ]
 
