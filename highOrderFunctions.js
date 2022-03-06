@@ -29,3 +29,8 @@ const map = products.map((product) => {
   }
 })
 console.log({ map })
+
+// .filter(filter our items)
+const filter = products.filter((product) => product.quantity > 2)
+
+console.log({ filter })
